@@ -1,0 +1,33 @@
+# Dependencias de Node
+/node_modules/
+
+# Archivos de build
+/dist/
+/out-tsc/
+
+# Configuración de Angular CLI y sistema
+.angular/
+.eslintcache
+.cache/
+
+# Entornos locales y secretos
+environment*.local.ts
+src/environments/environment*.local.ts
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Credenciales, si las tuvieras por error
+*.env
